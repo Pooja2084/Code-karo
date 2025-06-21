@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000;
+}
+
+.container {
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .show-text {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.links {
+  margin: 20px 0;
+}
+
+.links p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.links a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer {
+  font-size: 12px;
+  color: #888;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: #888;
+  text-decoration: underline;
+}
